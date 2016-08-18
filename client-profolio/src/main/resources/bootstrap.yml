@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: clientportfolio-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+      
+eureka:
+    client:
+       serviceUrl:
+           defaultZone: http://localhost:8761/eureka/
+    instance:
+      preferIpAddress: true
+      registerWithEureka: true
+      fetchRegistry: true
