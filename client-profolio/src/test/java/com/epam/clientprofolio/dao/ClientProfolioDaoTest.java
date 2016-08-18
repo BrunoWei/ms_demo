@@ -16,7 +16,7 @@ import com.epam.clientprofolio.domain.ClientProfolio;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = ClientProfolioApplication.class)
 @WebAppConfiguration 
-@IntegrationTest("server.port:0") 
+//@IntegrationTest("server.port:0") 
 public class ClientProfolioDaoTest {
 	
 	@Autowired

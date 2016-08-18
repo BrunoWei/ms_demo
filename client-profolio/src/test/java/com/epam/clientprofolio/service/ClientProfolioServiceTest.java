@@ -21,7 +21,7 @@ import com.epam.clientprofolio.service.impl.ClientProfolioServiceImpl;
 @RunWith(MockitoJUnitRunner.class)
 @SpringApplicationConfiguration(classes = ClientProfolioApplication.class)
 @WebAppConfiguration 
-@IntegrationTest("server.port:0") 
+//@IntegrationTest("server.port:0") 
 public class ClientProfolioServiceTest {
 	
 	private ClientProfolioService clientProfolioService;
