@@ -1,0 +1,21 @@
+clientprofolio:
+        clientProfolioList:
+         - id: 10000
+           name: BrunoWei
+           age: 100
+         - id: 10001
+           name: Jackson
+           age: 30
+         - id: 10002
+           name: Josh
+           age: 40
+         - id: 10003
+           name: David
+           age: 18
+           
+server:
+   port: 8879
+   
+   
+info:
+  request: http://EPCNSZXW0154:8879/clientprofolio/{id} id=10000,10001,10002...
