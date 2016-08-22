@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>client.profolio.service</groupId>
-	<artifactId>clientprofolio-service</artifactId>
+	<groupId>com.epam.rnd.ms</groupId>
+	<artifactId>client-profolio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>clientprofolio-service</name>
+	<name>client-profolio</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
