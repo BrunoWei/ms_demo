@@ -1,45 +1,43 @@
 package com.example.pojo;
 
-import java.util.Date;
-
 public class MarketNews {
-	private String id;
-	
-	private String topic;
-	
-	private String content;
-	
-	private Date publishDate;
+    private String id;
 
-	public String getId() {
-		return id;
-	}
+    private String topic;
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    private String content;
 
-	public String getTopic() {
-		return topic;
-	}
+    private String publishDate;
 
-	public void setTopic(String topic) {
-		this.topic = topic;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public String getContent() {
-		return content;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public void setContent(String content) {
-		this.content = content;
-	}
+    public String getTopic() {
+        return topic;
+    }
 
-	public Date getPublishDate() {
-		return publishDate;
-	}
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
 
-	public void setPublishDate(Date publishDate) {
-		this.publishDate = publishDate;
-	}
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getPublishDate() {
+        return publishDate;
+    }
+
+    public void setPublishDate(String publishDate) {
+        this.publishDate = publishDate;
+    }
 }
