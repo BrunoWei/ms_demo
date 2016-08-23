@@ -10,5 +10,6 @@
         <module>config-server</module>
         <module>client-profolio</module>
         <module>market-news</module>
-    </modules>  
+    </modules>
+	
 </project>  
