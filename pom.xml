@@ -9,7 +9,7 @@
         <module>eureka-server</module>
         <module>config-server</module>
         <module>client-profolio</module>
-        <module>market-news</module>
+        <!--<module>market-news</module>-->
     </modules>
 	
 </project>  
