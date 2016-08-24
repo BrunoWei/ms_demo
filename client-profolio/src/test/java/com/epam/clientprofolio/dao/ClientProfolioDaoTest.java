@@ -27,7 +27,7 @@ public class ClientProfolioDaoTest {
 		ClientProfolio clientProfolio = clientProfolioDao.getClientProfolioById(10001L);
 		assertNotNull(clientProfolio);
 		assertEquals("Jackson", clientProfolio.getName());
-		assertTrue(clientProfolio.getAge()==30);
+		assertTrue(clientProfolio.getAge()==50);
 	}
 
 }
